@@ -14,10 +14,10 @@ entries:
     - elasticsearch-curator
     name: elasticsearch-curator
     sources:
-    - https://github.com/lebenitza/helm-elasticsearch-curator
+    - https://github.com/standardbroadcast/charts/elasticsearch-curator
     - https://github.com/bitnami/bitnami-docker-elasticsearch-curator
     type: application
     urls:
     - https://github.com/standardbroadcast/charts/releases/download/elasticsearch-curator-3.2.1/elasticsearch-curator-3.2.1.tgz
-    version: 3.2.1
+    version: 3.2.2
 generated: "2021-03-19T10:40:14.382811757Z"
