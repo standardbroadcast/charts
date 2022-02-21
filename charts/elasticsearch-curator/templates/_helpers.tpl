@@ -6,10 +6,10 @@ Return the appropriate apiVersion for cronjob APIs.
 {{- define "cronjob.apiVersion" -}}
 {{- if semverCompare "< 1.8-0" .Capabilities.KubeVersion.GitVersion -}}
 {{- print "batch/v2alpha1" }}
-{{- else if semverCompare "1.8-0 - 1.20" .Capabilities.KubeVersion.GitVersion -}}
-{{- print "batch/v1beta1" }}
-{{- else -}}
+{{- else if semverCompare ">=1.21" .Capabilities.KubeVersion.GitVersion -}}
 {{- print "batch/v1" }}
+{{- else -}}
+{{- print "batch/v1beta1" }}
 {{- end -}}
 {{- end -}}
 
