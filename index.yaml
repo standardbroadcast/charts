@@ -18,6 +18,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-elasticsearch-curator
     type: application
     urls:
-    - https://github.com/lebenitza/charts/releases/download/elasticsearch-curator-3.0.1/elasticsearch-curator-3.0.1.tgz
-    version: 3.0.1
+    - https://github.com/standardbroadcast/charts/releases/download/elasticsearch-curator-3.2.1/elasticsearch-curator-3.2.1.tgz
+    version: 3.2.1
 generated: "2021-03-19T10:40:14.382811757Z"
